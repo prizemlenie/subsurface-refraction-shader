@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subsurface refraction shader demo</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <canvas class="webgl"></canvas>
+    <div class="links">
+        <div class="link assets-info-toggle">
+            About assets
+        </div>
+        <a class="link" href="https://github.com/prizemlenie/subsurface-refraction-shader/blob/main/README.md"
+            target="_blank">
+            How it works?
+        </a>
+    </div>
+    <div class="load-indicator-container">
+        <div class="load-indicator">
+            <div class="load-indicator-bar-container">
+                <div class="load-indicator-bar">
+                    <div class="text-container">
+                        Loading...
+                    </div>
+                </div>
+                <div class="text-container">
+                    Loading...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="assets-info">
+        This demo includes assets from various authors.</br></br>
+        I have modified them to better fit the demo’s objectives and to ensure faster loading on the web.</br>
+        Below is a list of the original assets:</br></br></br>
+        <div class="asset-attribution">
+            <a href="https://sketchfab.com/3d-models/crystal-kyber-1d769339a8cc45fda2ba6b31ce91160f"
+                target="_blank">Crystal Kyber</a>
+            <div>
+                Author: <a href="https://sketchfab.com/Dyckzu" target="_blank">Ian Diaz</a></div>
+            <div>License: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></div>
+        </div>
+        <div class="asset-attribution">
+            <a href="https://sketchfab.com/3d-models/crystal-very-noisy-material-d66faac2b1de4fff8221e5ce51f4841d"
+                target="_blank">Crystal Very Noisy Material</a>
+            <div>Author: <a href="https://sketchfab.com/BrettDow" target="_blank">Brett Dow</a></div>
+
+            <div>License: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></div>
+        </div>
+        <div class="asset-attribution">
+            <a href="https://sketchfab.com/3d-models/crystal-heart-8e8515a0834b4c1e9e477ce0f392a90c"
+                target="_blank">Crystal Heart</a>
+            <div>
+                Author: <a href="https://sketchfab.com/habedi" target="_blank">Talaei</a>
+            </div>
+            <div>
+                License: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+            </div>
+        </div>
+        <a href="https://www.sharetextures.com/textures/wall/stone-wall-18" target="_blank">Stone Wall 18</a>
+        <a href="https://www.sharetextures.com/textures/wood/tree-bark-11" target="_blank">Tree Bark Texture 11</a>
+        <a href="https://www.sharetextures.com/textures/abstract/lava-06" target="_blank">Lava 06</a>
+        <a href="https://www.sharetextures.com/textures/floor/marble-32" target="_blank">Marble 32</a>
+
+        <div class="button assets-info-toggle" type="button">
+            <div class="black-bg">
+                <div class="text">
+                    Close
+                </div>
+                <div class="white-bg">
+                    <div class="text">
+                        Close
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/index.js" async></script>
+</body>
+
+</html>
